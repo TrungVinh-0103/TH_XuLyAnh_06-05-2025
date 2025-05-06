@@ -59,6 +59,36 @@ private slots:
 
     void on_btn_loc_gradient_clicked();
 
+    void on_btn_loc_laplace_clicked();
+
+    void on_btn_loc_robert_clicked();
+
+    void on_btn_loc_sobel_clicked();
+
+    void on_btn_loc_prewitt_clicked();
+
+    void on_btn_gradient_anhmau_clicked();
+
+    void on_btn_loc_robert_anhmau_clicked();
+
+    void on_btn_loc_sobel_anhmau_clicked();
+
+    void on_btn_loc_prewitt_anhmau_clicked();
+
+    void on_btn_loc_laplace_anhmau_clicked();
+
+    void on_btn_anmon_clicked();
+
+    void on_btn_gianno_clicked();
+
+    void on_btn_open_clicked();
+
+    void on_btn_close_clicked();
+
+    void on_btn_gauss_laplape_clicked();
+
+    void on_btn_g_l_anhmau_clicked();
+
 private:
     Ui::MainWindow *ui;
     QScrollArea *scrollArea; // Khai báo biến scrollArea
